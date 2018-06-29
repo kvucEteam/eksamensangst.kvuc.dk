@@ -1,0 +1,144 @@
+
+body {
+    font-family: "Open Sans",sans-serif;
+}
+.question_min {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    height: 5px;
+    padding-top: 0;
+}
+.menupkt {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    height: 200px;
+    margin: 4px;
+}
+.menupkt:hover {
+    background-color: red;
+}
+.test_header {
+    background-color: #263238;
+    color: #f3f9f9;
+    height: 60px;
+    padding-top: 5px;
+}
+.glyphicon-align-justify {
+    color: #f3f9f9;
+    cursor: pointer;
+    margin-left: 70%;
+    margin-top: 8px;
+}
+.seperator {
+    background-color: #607d8b;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+    height: 5px;
+    z-index: 50;
+}
+.question {
+    background-color: #03a9f4;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+}
+.button_container {
+    padding: 4px;
+}
+.question_h1 {
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 8.3333%;
+    margin-top: 20px;
+    padding-right: 0;
+}
+.question_min {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    height: 5px;
+    padding-top: 0;
+}
+.btn_question {
+    background-color: #35baf6;
+    color: white;
+    font-size: 20px;
+    height: 83px;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.btn_question {
+    margin-left: 0;
+}
+.header_h5 {
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.header_h4 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+.spm_tal {
+    font-size: 14px;
+}
+.cont_btn {
+    margin-top: 22px;
+}
+.btn:hover {
+    color: white;
+}
+.btn-main {
+    background-color: #7db12a;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.btn-main:hover {
+    background-color: #97be51;
+}
+.btn_feed {
+    margin-top: 8px;
+}
+.tagline, .h1 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.tagline {
+    margin-bottom: 20px;
+}
+.resultat_wrapper {
+    margin-left: 16px;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #97be51;
+}
+
+.navbar{
+    background-color: #263238;
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 100%;
+}
