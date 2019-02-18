@@ -162,7 +162,16 @@ function clicked_answer(num) {
 }
 
 function generate_menu(navn) {
-    var nav = "<nav class='navbar navbar-inverse' role='navigation'> <!-- Brand and toggle get grouped for better mobile display --> <div class='navbar-header'> <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1'> <span class='sr-only'>Toggle navigation</span> <span class='icon-bar'></span> <span class='icon-bar'></span> <span class='icon-bar'></span> </button> <a class='navbar-brand' href='index.html'>Eksamensangst</a> </div> <!-- Collect the nav links, forms, and other content for toggling --> <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'> <ul class='nav navbar-nav'><li><a href='test.html'>Test dig selv</a> </li><li><a href='audio.html'>Lytteøvelser</a> </li> <li><a href='panik.html'>Stop panikken</a> </li>  <li><a href='video.html'>En personlig historie </a> </li><li><a href='ovelser.html'>Skemaøvelser</a> </li>  </ul> <a href='https://www.kvuc.dk'><img class='logo logo_top' src='logo_kvuc.png'/></div> </a><!-- /.navbar-collapse --> <!-- /.container-fluid --> </nav>";
+    var nav = "<nav class='navbar navbar-inverse' role='navigation'> <!-- Brand and toggle get grouped for better mobile display -->"
+    nav += "<div class='navbar-header'> <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1'> <span class='sr-only'>Toggle navigation</span> <span class='icon-bar'></span> <span class='icon-bar'></span> <span class='icon-bar'></span> </button>"; 
+    nav += "<a class='navbar-brand' href='index.html'>Eksamensangst</a> </div> <!-- Collect the nav links, forms, and other content for toggling --> <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>"
+    nav += "<ul class='nav navbar-nav'>"
+    nav +="<li><a href='test.html'>Test dig selv</a> </li>";
+    nav +="<li><a href='audio.html'>Lytteøvelser</a> </li>"; 
+    nav +="<li><a href='panik.html'>Stop panikken</a> </li>";  
+    nav +="<li><a href='video.html'>En personlig historie </a> </li>";
+    nav +="<li><a href='ovelser.html'>Skemaøvelser</a> </li>";
+    nav +="</ul> <a href='https://www.kvuc.dk'><img class='logo logo_top' src='logo_kvuc.png'/></div> </a><!-- /.navbar-collapse --> <!-- /.container-fluid --> </nav>";
     $(".nav_container").html(nav);
     $("body").append("<div class='footer'><a href='https://www.kvuc.dk'><img class='logo logo_bund'src='logo_kvuc.png'/></a><br/>Support og feedback <a href='mailto:e-support@kvuc.dk'>e-support@kvuc.dk</a> | ©KVUC e-learning 2015<br/></div>");
 }
