@@ -171,7 +171,11 @@ function generate_menu(navn) {
     nav +="<li><a href='panik.html'>Stop panikken</a> </li>";  
     nav +="<li><a href='video.html'>En personlig historie </a> </li>";
     nav +="<li><a href='ovelser.html'>Skemaøvelser</a> </li>";
+    nav +="<li><a href='laes_mere.html'>Læs mere</a> </li>";
     nav +="</ul> <a href='https://www.kvuc.dk'><img class='logo logo_top' src='logo_kvuc.png'/></div> </a><!-- /.navbar-collapse --> <!-- /.container-fluid --> </nav>";
     $(".nav_container").html(nav);
-    $("body").append("<div class='footer'><a href='https://www.kvuc.dk'><img class='logo logo_bund'src='logo_kvuc.png'/></a><br/>Support og feedback <a href='mailto:e-support@kvuc.dk'>e-support@kvuc.dk</a> | ©KVUC e-learning 2015<br/></div>");
+    $("body").append("<div class='footer'><a href='https://www.kvuc.dk'><img class='logo logo_bund'src='logo_kvuc.png'/></a><br/>Tekst og indhold: Solveig Heide-Jørgensen | Support og feedback <a href='mailto:e-support@kvuc.dk'>e-support@kvuc.dk</a> | ©KVUC e-learning 2015<br/></div>");
+    $("li").eq(navn).css("background-color", "#424242").css("color", "#fff"); 
 }
+
+

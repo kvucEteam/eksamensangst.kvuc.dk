@@ -107,7 +107,7 @@ body {
 }
 
 .btn-main {
-    background-color: #7db12a;
+    background-color: #1c63bb;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -124,7 +124,7 @@ body {
 }
 
 .btn-main:hover {
-    background-color: #97be51;
+    background-color: #000000;
 }
 
 .btn_feed {
@@ -151,7 +151,7 @@ a {
 a:hover {
     color: white;
     text-decoration: none;
-    background-color: #97be51;
+    
 }
 
 .navbar {
@@ -159,7 +159,7 @@ a:hover {
     border-radius: 0px;
     min-height: 90px;
     padding-top: 15px;
-    background-color: #7DB12A;
+    background-color: #292929;
 }
 
 .navbar-inverse .navbar-brand {
@@ -170,7 +170,7 @@ a:hover {
 .footer {
     text-align: center;
     font-weight: 10px;
-    background-color: #7DB12A;
+    background-color: #292929;
     color: #ddd;
     padding-bottom: 20px;
 }
@@ -215,11 +215,7 @@ video {
 }
 
 .navbar-inverse {
-    border-color: #7DB12A;
-}
-
-li>a {
-    color: #ddd;
+    border-color: #292929;
 }
 
 
@@ -236,12 +232,19 @@ li>a {
 
 .boglink{
     
-    color: #7DB12A;
-}
-
-.boglink:hover{
-    background-color: transparent;
-    text-decoration: underline;
-    color: #7DB12A;
+    color: #1c63bb;
+   
     
 }
+
+.boglink:hover {
+    color: #1c63bb !important;
+    text-decoration: underline;
+    
+}
+
+.glyphicon {
+    
+    font-size: 10px;
+}
+
